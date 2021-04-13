@@ -69,9 +69,9 @@ public class Main {
 
             if (playerTurn + i == compTurn) return "You lost!";
 //loops the array to find the dependency
-            if (playerTurn + i > arrayLength) {
+            if (playerTurn + i >= arrayLength) {
 
-                if (playerTurn + distance - arrayLength == compTurn){
+                if (playerTurn + i - arrayLength == compTurn){
                     return "You lost!";
                 }
             }

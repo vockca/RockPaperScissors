@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PaperRockScissors:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PaperRockScissors_jar</output-path>
+    <root id="archive" name="PaperRockScissors.jar">
+      <element id="module-output" name="RockPaperScissors" />
+    </root>
+  </artifact>
+</component>
